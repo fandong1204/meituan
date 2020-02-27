@@ -165,8 +165,10 @@
     padding-left: 20px;
 }
 .model-content{
-    border-left: 1px solid red;
-    border-top: 1px solid red;
+    /* border-left: 1px solid red; */
+    border-left: 1px solid #eee;
+    /* border-top: 1px solid red; */
+    border-top: 1px solid #eee;
 }
 
 
@@ -216,29 +218,29 @@
     text-decoration: none;
     color: #666;
 }
-.single-shop>h4{
+.single-shop h4{
     margin-top: 17px;
     font-size: 14px;
 }
-.single-shop>p{
+.single-shop p{
     margin-top: 12px;
     color: #999;
 }
-.single-shop>ul.price{
+.single-shop ul.price{
     color: #999;
     padding-top: 18px;
     padding-bottom: 12px;
     overflow: hidden;
     border-bottom: 1px dashed #eee;
 }
-.single-shop>ul.price>li>b{
+.single-shop ul.price li .wq{
     font-size: 20px;
     color: #f76120;
 }
-.single-shop>div.pingjia{
+.single-shop div.pingjia{
     text-align: right;
 }
-.single-shop>div.pingjia>i{
+.single-shop div.pingjia i{
     display: inline-block;
     width: 60px;
     height: 12px;
@@ -259,3 +261,95 @@
     color: #a5e2f2;
 }
 /* ====================fine end */
+
+
+
+
+/* ====================底部start */
+.footer{
+    margin-top: 30px;
+}
+.footer .top{
+    padding-bottom: 50px;
+    border-bottom: 1px solid #eee;
+}
+.footer .top1{
+    background-color:#ccc;
+}
+.footer .top1 span{
+    width: 100px;
+    display: inline-block;
+    border: 1px solid #eee;
+    text-align: center;
+    font-size: 14px;
+}
+.footer .top1 span a{
+    text-decoration: none;
+}
+.footer .top2 span{
+    width: 96px;
+    display: inline-block;
+    border: 1px solid #eee;
+    text-align: center;
+    font-size: 16px;
+}
+.footer .bottom .hqgx{
+    padding-top: 20px;
+    margin-right: 130px;
+}
+.footer .bottom .hqgx .hq{
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.footer .bottom .hqgx p{
+    padding-bottom: 10px;
+    color:#666;
+}
+.footer .bottom .suhz{
+    padding-top: 20px;
+    margin-right: 130px;
+}
+.footer .bottom .suhz .sw{
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.footer .bottom .suhz p{
+    padding-bottom: 10px;
+    color:#666;
+}
+.footer .bottom .gsxx{
+    padding-top: 20px;
+    margin-right: 50px;
+}
+.footer .bottom .gsxx .gs{
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.footer .bottom .gsxx p{
+    padding-bottom: 10px;
+    color:#666;
+}
+.footer .bottom .yhbz{
+    padding-top: 20px;
+    margin-right: 130px;
+}
+.footer .bottom .yhbz .yh{
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.footer .bottom .yhbz p{
+    padding-bottom: 10px;
+    color:#666;
+}
+.footer .db{
+    border-top: 1px solid black;
+    height: 50px;
+    background-color: #666;
+}
+.footer .db p{
+    color: #ccc;
+    padding-top: 40px;
+    text-align: center;
+    
+}
+/* ====================底部end */
